@@ -1,0 +1,23 @@
+h1{
+    color: red;
+}
+
+p{
+    background-color: indigo;
+    color: white;
+}
+
+.sheeko{
+    background-color: red;
+    padding: 20px;
+}
+#hilaadii{
+    background-color: black;
+    padding: 30px;
+}
+
+html{
+    background-color: black;
+    margin: 10px;
+    color: yellow;
+}
