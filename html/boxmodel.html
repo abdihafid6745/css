@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BoxModel Lesson</title>
+<link rel="stylesheet" href="../css/boxmodel.css">
+<script>
+    document.addEventListener("DOMContentLoaded",()=>{
+        const red = document.getElementById('red')
+        const green = document.getElementById('green')
+        const black = document.getElementById('black')
+        const blue = document.getElementById('blue')
+        const three = document.querySelector('.three')
+        red.addEventListener("click",()=>{
+            three.style.backgroundColor = "red"
+        });
+
+         green.addEventListener("click",()=>{
+            three.style.backgroundColor = "green"
+        })
+         black.addEventListener("click",()=>{
+            three.style.backgroundColor = "black"
+        })
+         blue.addEventListener("click",()=>{
+            three.style.backgroundColor = "blue"
+        })
+    })
+</script>
+</head>
+<body>
+    <!-- <!-- <div class="box"> -->
+        <img src="https://i0.wp.com/museum-design.ru/wp-content/uploads/kompyuternyy-geniy-tim-berners-li-02.jpg" alt="">
+        <h1>Tim Berns Lee</h1>
+        <span>Creator of HTML 5<> </span>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae ipsum, provident ab molestiae eius mollitia dolore beatae quod rem, possimus molestias iure dolorem. Optio ratione consectetur est eum eos magnam.</p>
+    </div> -->
+
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three">
+        <button id="red">red</button>
+        <button id="green">green</button>
+        <button id="black">black</button>
+        <button id="blue">blue</button>
+    </div>
+    <div class="four"></div>
+</body>
+</html>

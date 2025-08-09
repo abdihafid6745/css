@@ -1,0 +1,66 @@
+.box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px ;
+    margin-left: 50px;
+
+}
+
+
+.box{
+    border: 2.5px solid;
+    padding: 20px;
+    margin: 30px;
+    width: 300px;
+}
+
+.box h1{
+    color: orangered;
+}
+.box span{
+    color: gray;
+}
+
+
+.one{
+    padding: 80px;
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 100px;
+}
+
+
+.two{
+    padding: 80px;
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+    border: 5px solid blue;
+    border-radius: 500px;
+}
+
+.three{
+    padding: 80px;
+    margin: 30px;
+    width: 120px;
+    height: 50px;
+   border: 5px solid;
+    /* border-radius: 500px; */
+    border-left: 5px solid red;
+    border-right: 5px solid green;
+    border-top: 5px solid blue;
+    border-bottom: 5 px solid yellow;
+}
+
+.four{
+    padding: 80px;
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    /* border: 5px solid red; */
+    background-color: dodgerblue;
+    border-top-right-radius:100px;
+    border-top-left-radius: 100px;
+}

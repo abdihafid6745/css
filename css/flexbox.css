@@ -1,0 +1,62 @@
+.frontend{
+    border: 2px solid gray;
+    width: 400px;
+    padding: 10px;
+}
+
+.frontend ul li{
+    list-style: none;
+}
+
+.frontend .js{
+    color: orange;
+}
+.frontend .rc{
+    color: cyan;
+}
+
+.backend {
+    background-color: dodgerblue;
+    width: 400px;
+    padding: 10px;
+}
+
+.devops{
+    border: 2px solid black;
+    padding: 10px;
+    width: 400px;
+}
+
+
+.mobile {
+    background-color: seagreen;
+    color: white;
+    width: 400px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.mobile:hover{
+    scale: 1.1;
+    transition: all 0.3s ease-in-out;
+    rotate: 1deg;
+}
+
+.gaming{
+    border: 2px solid gray;
+    width: 400px;
+    padding: 10px;
+}
+.gaming ul li {
+    list-style: none;
+}
+
+
+.cards{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
